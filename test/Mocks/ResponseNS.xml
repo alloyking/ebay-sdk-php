@@ -23,7 +23,7 @@
     <ns1:simpleClasses xmlns:ns4="http://davidtsadler.com">
         <ns4:integer>999</ns4:integer>
     </ns1:simpleClasses>
-    <ns1:AmountClass AttributeOne="one" ATTRIBUTEBISH="two" xmlns:ns5="http://davidtsadler.com" NonExistent="nonexistent">543.21</ns1:AmountClass>
+  <ns1:AmountClass AttributeOne="one" ATTRIBUTEBISH="two" NonExistent="nonexistent">543.21</ns1:AmountClass>
     <ns1:base64BinaryType>binary type</ns1:base64BinaryType>
     <ns1:booleanType>true</ns1:booleanType>
     <ns1:decimalType>123</ns1:decimalType>

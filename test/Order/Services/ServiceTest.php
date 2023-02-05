@@ -3,10 +3,10 @@ namespace DTS\eBaySDK\Test\Order\Services;
 
 use DTS\eBaySDK\Order\Services\OrderBaseService;
 use DTS\eBaySDK\Order\Services\OrderService;
-use DTS\eBaySDK\Test\Order\Mocks\Service;
 use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
+use DTS\eBaySDK\Test\Order\Mocks\Service;
 
-class ServiceTest extends \PHPUnit_Framework_TestCase
+class ServiceTest extends   \PHPUnit\Framework\TestCase
 {
     public function testConfigDefinitions()
     {

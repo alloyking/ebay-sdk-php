@@ -2,13 +2,14 @@
 namespace DTS\eBaySDK\Types\Test;
 
 use DTS\eBaySDK as Sdk;
+
 /**
  * These tests are to cover where we have corrected
  * the property names of various classes.
  * These names have been incorrectly named in the documentation.
  * The names used for the properties are now taken from the actual response from the API.
  */
-class PropertyFixesTest extends \PHPUnit_Framework_TestCase
+class PropertyFixesTest extends   \PHPUnit\Framework\TestCase
 {
     /**
      * Incorrect documentation https://developer.ebay.com/Devzone/post-order/types/CancelSummary.html

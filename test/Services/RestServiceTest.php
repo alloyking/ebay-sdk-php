@@ -2,11 +2,11 @@
 namespace DTS\eBaySDK\Test\Services;
 
 use DTS\eBaySDK\Services\BaseRestService;
-use DTS\eBaySDK\Test\Mocks\RestService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
+use DTS\eBaySDK\Test\Mocks\RestService;
 
-class RestServiceTest extends \PHPUnit_Framework_TestCase
+class RestServiceTest extends   \PHPUnit\Framework\TestCase
 {
     public function testConfigDefinitions()
     {

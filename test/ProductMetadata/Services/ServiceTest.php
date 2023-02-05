@@ -3,10 +3,10 @@ namespace DTS\eBaySDK\Test\ProductMetadata\Services;
 
 use DTS\eBaySDK\ProductMetadata\Services\ProductMetadataBaseService;
 use DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService;
-use DTS\eBaySDK\Test\ProductMetadata\Mocks\Service;
 use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use DTS\eBaySDK\Test\ProductMetadata\Mocks\Service;
 
-class ServiceTest extends \PHPUnit_Framework_TestCase
+class ServiceTest extends   \PHPUnit\Framework\TestCase
 {
     public function testConfigDefinitions()
     {

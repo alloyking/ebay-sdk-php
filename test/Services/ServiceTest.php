@@ -1,15 +1,15 @@
 <?php
 namespace DTS\eBaySDK\Test\Services;
 
-use DTS\eBaySDK\Test\TestTraits\ManageEnv;
-use DTS\eBaySDK\Services\BaseService;
 use DTS\eBaySDK\Credentials\Credentials;
 use DTS\eBaySDK\Credentials\CredentialsProvider;
-use DTS\eBaySDK\Test\Mocks\Service;
+use DTS\eBaySDK\Services\BaseService;
 use DTS\eBaySDK\Test\Mocks\ComplexClass;
 use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use DTS\eBaySDK\Test\Mocks\Service;
+use DTS\eBaySDK\Test\TestTraits\ManageEnv;
 
-class ServiceTest extends \PHPUnit_Framework_TestCase
+class ServiceTest extends   \PHPUnit\Framework\TestCase
 {
     use ManageEnv;
 

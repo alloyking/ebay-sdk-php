@@ -1,10 +1,10 @@
 <?php
 namespace DTS\eBaySDK\Test\Mocks;
 
-use Psr\Http\Message\RequestInterface;
+use GuzzleHttp\Promise\FulfilledPromise;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Promise\FulfilledPromise;
+use Psr\Http\Message\RequestInterface;
 
 class HttpHandler
 {

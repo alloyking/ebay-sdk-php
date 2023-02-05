@@ -1,21 +1,21 @@
 <?php
 namespace DTS\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Test\Mocks\SimpleClass;
 use DTS\eBaySDK\Test\Mocks\Base64BinaryType;
 use DTS\eBaySDK\Test\Mocks\BooleanType;
 use DTS\eBaySDK\Test\Mocks\DecimalType;
 use DTS\eBaySDK\Test\Mocks\DoubleType;
 use DTS\eBaySDK\Test\Mocks\IntegerType;
+use DTS\eBaySDK\Test\Mocks\SimpleClass;
 use DTS\eBaySDK\Test\Mocks\StringType;
 use DTS\eBaySDK\Test\Mocks\TokenType;
 use DTS\eBaySDK\Test\Mocks\URIType;
 
-class SimpleClassTest extends \PHPUnit_Framework_TestCase
+class SimpleClassTest extends   \PHPUnit\Framework\TestCase
 {
     private $obj;
 
-    protected function setUp()
+    protected function setUp() : void
     {
         $this->obj = new SimpleClass();
     }

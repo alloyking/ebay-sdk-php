@@ -3,10 +3,10 @@ namespace DTS\eBaySDK\Test\PostOrder\Services;
 
 use DTS\eBaySDK\PostOrder\Services\PostOrderBaseService;
 use DTS\eBaySDK\PostOrder\Services\PostOrderService;
-use DTS\eBaySDK\Test\PostOrder\Mocks\Service;
 use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
+use DTS\eBaySDK\Test\PostOrder\Mocks\Service;
 
-class ServiceTest extends \PHPUnit_Framework_TestCase
+class ServiceTest extends   \PHPUnit\Framework\TestCase
 {
     public function testConfigDefinitions()
     {
