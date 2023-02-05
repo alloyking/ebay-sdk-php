@@ -60,7 +60,7 @@ class SdkTest extends   \PHPUnit\Framework\TestCase
 
     public function testCallingUnknownMethod()
     {
-        $this->setExpectedException('\BadMethodCallException', 'Unknown method: foo');
+        $this->expectException('\BadMethodCallException', 'Unknown method: foo');
 
         $this->sdk->foo();
     }

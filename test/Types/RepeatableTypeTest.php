@@ -63,7 +63,7 @@ class RepeatableTypeTest extends   \PHPUnit\Framework\TestCase
 
     public function testSettingInvalidType()
     {
-        $this->setExpectedException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for . Expected string but got integer');
+        $this->expectException('\DTS\eBaySDK\Exceptions\InvalidPropertyTypeException', 'Invalid property type provided for . Expected string but got integer');
 
         $this->obj[] = 123;
     }

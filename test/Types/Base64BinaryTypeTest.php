@@ -26,6 +26,6 @@ class Base64BinaryTypeTest extends   \PHPUnit\Framework\TestCase
     {
         $this->obj->value = 'foo';
         $this->assertEquals('foo', $this->obj->value);
-        $this->assertInternalType('string', $this->obj->value);
+        $this->assertIsString($this->obj->value);
     }
 }
